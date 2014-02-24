@@ -41,7 +41,7 @@ GEM
       oauth-active-resource (>= 0.4.4)
     sqlite3-ruby (1.3.2)
     sqlite3-ruby (1.3.2-x86-mingw32)
-    will_paginate (2.3.14)
+    will_paginate (2.3.16)
 
 PLATFORMS
   ruby
@@ -55,6 +55,7 @@ DEPENDENCIES
   pg
   rails (= 2.3.5)
   rails-settings
+  rake (= 0.8.7)
   soundcloud-auth
   sqlite3-ruby
-  will_paginate
+  will_paginate (~> 2.3.16)
