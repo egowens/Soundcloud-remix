@@ -1,4 +1,5 @@
 require 'yaml'
+YAML::ENGINE.yamler = 'syck'
 
 file = File.join(Rails.root, "config", "settings.yml")
 p file
